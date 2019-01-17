@@ -1,6 +1,12 @@
-#include<iostream>
+#include<stdio.h>
+int main()
 {
-	cout<<"hello world"<<endl;
+	int n;
+	printf("hello world");
+	printf("Enter any number");
+	scanf("%d",&n);
+	printf("Your number is %d",n);
+	return 0;
 
 }
 
