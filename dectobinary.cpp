@@ -15,4 +15,8 @@ int main()
    {
    	cout<<a[i];
    }
-}
+//---------------------------------------------------------------------------//
+//Algorithm=1.Divide the num by 2 through %and store the remainder in array.//
+//          2.Divide the num by 2 thru /    //
+//          3.Repeat the step 2 until the num is greater than 0   //
+//---------------------------------------------------------------------------//
