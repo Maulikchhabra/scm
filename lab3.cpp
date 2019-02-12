@@ -2,7 +2,7 @@
 class Calc
 {       public:
 	    int a,b;
-        int substract(int a ,int b);
+        int substract(int a ,int b);//function declarations//
         int multiply(int a ,int b);
         int add(int a ,int b);
         float divide(int a ,int b);
