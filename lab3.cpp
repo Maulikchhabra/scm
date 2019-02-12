@@ -25,6 +25,28 @@ int main()
    cin>>secondnumber;
    cout<<"1st number="<<firstnumber<<endl;
    cout<<"2nd number="<<secondnumber<<endl;
+    switch(func)
+   {
+   	case 1 :
+   	        result=firstnumber-secondnumber;
+   	        cout<<result;
+	        break;
+   	case 2 :
+ 	        result=firstnumber*secondnumber;
+   	        cout<<result;
+	        break;
+	case 3 :
+                result=firstnumber+secondnumber;
+                cout<<result;	
+                break;
+	case 4 : 
+	        result =firstnumber/secondnumber;
+	        cout<<result;
+                break;
+	default : cout<<"wrong choice";
+              break;	    						        
+}
+return 0;   
 }
    
 
