@@ -6,8 +6,8 @@ class pointer
 };
 int main()
 {
-	int a,b,*ptr1,*ptr2;
-	int sum,sub,mul,increment,decrement;
+	int a,b,*ptr1,*ptr2; //variable and pointer declaration//
+	int sum,sub,mul,increment,decrement; //operation declaration//
 	float div;
 	cout<<"Enter the values of a ="<<endl;
 	cin>>a;
